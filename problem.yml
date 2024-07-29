@@ -1,0 +1,12 @@
+-------
+ name: aws user 
+ host: all 
+ var_file: bhupen patil 
+ task:
+ - name: print the stask
+ debug : 
+   msg: "{{url}}"
+
+   .......................
+
+    
