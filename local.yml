@@ -1,0 +1,8 @@
+name: aws task 
+hosts: all
+ task:
+ debug:
+ msg: "{{url}}""
+ vars: 
+    url: www.devops.com
+
